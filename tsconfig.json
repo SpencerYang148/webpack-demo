@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "target": "es2015",
+    "module": "esnext",
+    "sourceMap": false,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["dom", "es2015", "es5", "scripthost", "ES2020.Promise"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "allowJs": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["./src/**/*"]
+}
